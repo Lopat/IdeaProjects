@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SwingLabelTests:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SwingLabelTests_jar</output-path>
+    <root id="archive" name="SwingLabelTests.jar">
+      <element id="module-output" name="SwingLabelTests" />
+    </root>
+  </artifact>
+</component>
