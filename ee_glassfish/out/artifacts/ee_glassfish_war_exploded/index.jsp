@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Start Page</title>
-      <link rel="stylesheet" href="css\global.css">
+      <link rel="stylesheet" href="css/global.css">
   </head>
   <body>
   <h1 align="center">Start Page</h1>
@@ -10,5 +10,6 @@
   <p align="center"><a href = "Servlet2">TEST2</a></p>
   <p align="center"><a href = "Calculator">Calculator</a></p>
   <p align="center"><a href = "CheckSessionAttributes">Session</a></p>
+  <p align="center"><a href = "jsp/FormJ.jsp">Form</a></p>
   </body>
 </html>

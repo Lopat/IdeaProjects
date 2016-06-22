@@ -64,7 +64,7 @@ public class calc extends HttpServlet {
         catch (Exception ex) {
             out.println("Wrong inputs");
             out.println("\n");
-            response.sendError(HttpServletResponse.SC_BAD_REQUEST);
+          //  response.sendError(HttpServletResponse.SC_BAD_REQUEST);
         }
 
         ArrayList<String> operationList = null;

@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
-@WebFilter(filterName = "TestFiler")
+@WebFilter(filterName = "TestFiler", urlPatterns ="/CheckSessionAttributes" )
 public class TestFiler implements Filter {
     public void destroy() {
     }

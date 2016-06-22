@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 @WebServlet(name = "Servlet2", urlPatterns = {"/Servlet2"})
 public class Servlet2 extends HttpServlet {
@@ -21,6 +20,7 @@ public class Servlet2 extends HttpServlet {
 
         String varTextA = "Hello World!";
         String varTextB = "It JSP.";
+        int i = 99;
 
         request.setAttribute("textA", varTextA);
         request.setAttribute("textB", varTextB);

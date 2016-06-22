@@ -15,6 +15,7 @@
         <filter-name>testFiler</filter-name>
         <servlet-name>Calculator</servlet-name>
     </filter-mapping>
+
     <error-page>
         <error-code>404</error-code>
         <location>/html/404.html</location>
@@ -23,4 +24,6 @@
         <error-code>406</error-code>
         <location>/html/406.html</location>
     </error-page>
+
+
 </web-app>
